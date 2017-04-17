@@ -6,7 +6,7 @@ var captionText = document.getElementById("caption");
 var img=[];
 var span=[];
 
-for (var i = 0; i < 9; i++){
+for (var i = 0; i < 11; i++){
 	img[i]= document.getElementsByClassName("showImg")[i];
 	img[i].addEventListener('click', show);
 }
@@ -18,7 +18,7 @@ function show(){
 }
 
 
-for (var i = 0; i < 9; i++){
+for (var i = 0; i < 11; i++){
 	span[i]= document.getElementsByClassName("closeImg")[i];
 	span[i].addEventListener("click", close);
 }
